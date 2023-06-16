@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/shreya-portfolio/static/css/main.f7c1f98a.css",
+    "main.js": "/shreya-portfolio/static/js/main.600b8ec5.js",
+    "index.html": "/shreya-portfolio/index.html",
+    "main.f7c1f98a.css.map": "/shreya-portfolio/static/css/main.f7c1f98a.css.map",
+    "main.600b8ec5.js.map": "/shreya-portfolio/static/js/main.600b8ec5.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f7c1f98a.css",
+    "static/js/main.600b8ec5.js"
+  ]
+}
