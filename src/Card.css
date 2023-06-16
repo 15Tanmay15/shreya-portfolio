@@ -1,0 +1,48 @@
+.card-container {
+    width: 100%;
+    height: 320px;
+    display: flex;
+    flex-direction: column;
+    margin: 6px;
+    border: 1px solid black;
+}
+
+.card-white {
+    display: flex;
+    flex-direction: row-reverse;
+    width: 100%;
+    height: 100%;
+    background-color: whitesmoke;
+    color: black;
+}
+
+.card-black {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    color: whitesmoke;
+}
+
+.movie-info {
+    display: flex;
+    width: 47%;
+    height: 320px;
+}
+
+.video-parent {
+    width: 50%; 
+    height: 100%
+}
+
+@media (max-width: 768px) {
+    .card-white,
+    .card-black,
+    .movie-info,
+    .video-parent
+      {
+      flex-direction: column;
+      width: 100%;
+    }
+}
