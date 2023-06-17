@@ -12,9 +12,9 @@ function Main() {
             <span>SHREYA GUPTA</span>
         </div>
         <div className='social-media-container'>
-            <a target='_blank' href='https://www.instagram.com/guptashreya30/'><InstagramIcon /></a>
-            <a target='_blank' href='https://www.facebook.com/profile.php?id=100063610856586'><FacebookIcon /></a>
-            <a target='_blank' href='https://www.linkedin.com/in/sshreyagupta0101/'><LinkedInIcon /></a>
+            <a target='_blank' href='https://www.instagram.com/guptashreya30/' rel="noreferrer"><InstagramIcon /></a>
+            <a target='_blank' href='https://www.facebook.com/profile.php?id=100063610856586' rel="noreferrer"><FacebookIcon /></a>
+            <a target='_blank' href='https://www.linkedin.com/in/sshreyagupta0101/' rel="noreferrer"><LinkedInIcon /></a>
         </div>
         <div className='description-container'>
             <div className='description'>
