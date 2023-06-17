@@ -1,6 +1,9 @@
 import React from 'react'
 import './Main.css'
 import Card from './Card'
+import InstagramIcon from '@mui/icons-material/Instagram';
+import FacebookIcon from '@mui/icons-material/Facebook';
+import LinkedInIcon from '@mui/icons-material/LinkedIn';
 
 function Main() {
   return (
@@ -8,10 +11,14 @@ function Main() {
         <div className='title-container'>
             <span>SHREYA GUPTA</span>
         </div>
+        <div className='social-media-container'>
+            <a target='_blank' href='https://www.instagram.com/guptashreya30/'><InstagramIcon /></a>
+            <a target='_blank' href='https://www.facebook.com/profile.php?id=100063610856586'><FacebookIcon /></a>
+            <a target='_blank' href='https://www.linkedin.com/in/sshreyagupta0101/'><LinkedInIcon /></a>
+        </div>
         <div className='description-container'>
             <div className='description'>
-                <p>Shreya is a music composer, performer and producer, based out of Mumbai. She has studied BA/MA in Economics and Math from Boston University and Music Technology, Jingle Production and Songwriting from the Berklee College of Music, as well as Bachelors and Masters degrees in Indian Classical Music from Allahabad University. She worked at production house JAM8, composing and producing themes for web series and Indian television shows under the guidance of Pritam Chakraborty and then worked as a producer for Sneha Khanwalkar. She has also worked as a Production Assistant at TSAI Performance Center, Boston.
-                Shreya is a music composer, performer and producer, based out of Mumbai. She has studied BA/MA in Economics and Math from Boston University and Music Technology, Jingle Production and Songwriting from the Berklee College of Music, as well as Bachelors and Masters degrees in Indian Classical Music from Allahabad University. She worked at production house JAM8, composing and producing themes for web series and Indian television shows under the guidance of Pritam Chakraborty and then worked as a producer for Sneha Khanwalkar. She has also worked as a Production Assistant at TSAI Performance Center, Boston.</p>
+                <p>Shreya is a music composer, performer and producer, based out of Mumbai. She has studied BA/MA in Economics and Math from Boston University and Music Technology, Jingle Production and Songwriting from the Berklee College of Music, as well as Bachelors and Masters degrees in Indian Classical Music from Allahabad University. She worked at production house JAM8, composing and producing themes for web series and Indian television shows under the guidance of Pritam Chakraborty and then worked as a producer for Sneha Khanwalkar. She has also worked as a Production Assistant at TSAI Performance Center, Boston.</p>
             </div>
         </div>
 
@@ -25,7 +32,7 @@ function Main() {
             <Card title = "Tata motors (Ad)" film_director = "" production = "" music_director = "" language = "" videoId = 'Lul-yt7ksuE' cardColor = 'black'/>
             <Card title = "Hyundai (Ad)" film_director = "" production = "" music_director = "" language = "" videoId = 'bGYrUpvMyQ8' cardColor = 'white'/>
             <Card title = "Showreel 1" film_director = "" production = "" music_director = "" language = "" videoId = 'vLQWhQsfrrs' cardColor = 'black'/>
-            <Card title = "Showreel 2" film_director = "" production = "" music_director = "" language = "" videoId = 'bGYrUpvMyQ8' cardColor = 'white'/>
+            <Card title = "Showreel 2" film_director = "" production = "" music_director = "" language = "" videoId = 'Xj_fI_QSRBs' cardColor = 'white'/>
         </div>
     </div>
   )

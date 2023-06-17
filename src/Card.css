@@ -28,12 +28,15 @@
 .movie-info {
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
     width: 47%;
 }
 
 .movie-info span {
-    font-size: 25px;
+    font-size: 22px;
     padding: 4px;
+    text-align: center;
 }
 
 .card-black span {
@@ -89,7 +92,7 @@
     }
     
     .movie-info span {
-      font-size: 15px;
+      font-size: 13px;
       padding: 4px;
       text-align: center;
     }
