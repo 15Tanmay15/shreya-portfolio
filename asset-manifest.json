@@ -1,13 +1,14 @@
 {
   "files": {
-    "main.css": "/shreya-portfolio/static/css/main.f7c1f98a.css",
-    "main.js": "/shreya-portfolio/static/js/main.600b8ec5.js",
+    "main.css": "/shreya-portfolio/static/css/main.4f4b932c.css",
+    "main.js": "/shreya-portfolio/static/js/main.a118c607.js",
+    "static/media/Sledgehammer.jpeg": "/shreya-portfolio/static/media/Sledgehammer.80a2e3e18a5e6403e5d5.jpeg",
     "index.html": "/shreya-portfolio/index.html",
-    "main.f7c1f98a.css.map": "/shreya-portfolio/static/css/main.f7c1f98a.css.map",
-    "main.600b8ec5.js.map": "/shreya-portfolio/static/js/main.600b8ec5.js.map"
+    "main.4f4b932c.css.map": "/shreya-portfolio/static/css/main.4f4b932c.css.map",
+    "main.a118c607.js.map": "/shreya-portfolio/static/js/main.a118c607.js.map"
   },
   "entrypoints": [
-    "static/css/main.f7c1f98a.css",
-    "static/js/main.600b8ec5.js"
+    "static/css/main.4f4b932c.css",
+    "static/js/main.a118c607.js"
   ]
 }
