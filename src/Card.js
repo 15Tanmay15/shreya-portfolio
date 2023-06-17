@@ -7,10 +7,15 @@ function Card(props) {
     <div className='card-container'>
         <div id = "card" className={props.cardColor === "white" ? "card-white" : "card-black"}>
             <div className='video-parent'>
-                <VideoPlayer videoId = {props.videoId} opts = {{width: '100%', height: '100%'}} />
+                {props.videoId ? <VideoPlayer videoId = {props.videoId} opts = {{width: '100%', height: '100%'}} /> : <div style={{width: "100%", height: "100%"}} id = {props.production} />}
             </div>
             <div className='movie-info'>
-                <h3>{props.title}</h3>
+                <span>Title: {props.title}</span>
+                 {props.achievements && <span>Achievements: {props.achievements}</span>}
+                 {props.film_director && <span>Film Director: {props.film_director}</span>}
+                 {props.production && <span>Production House: {props.production}</span>}
+                 {props.music_director && <span>Music Director: {props.music_director}</span>}
+                 {props.language && <span>Language: {props.language}</span>}
             </div>
         </div>
     </div>
